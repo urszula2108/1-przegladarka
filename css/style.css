@@ -1,0 +1,62 @@
+* {
+  text-align: center;
+}
+
+#mainContainer {
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  background-color: rgb(4, 33, 71);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+}
+
+div.oddNumbersContainer span,
+div.evenNumbersContainer span {
+  color: rgb(176, 213, 255);
+  font-weight: bold;
+}
+
+#btnGenerateNumbers {
+  font-weight: 600;
+  width: 120px;
+  height: 60px;
+  border-radius: 5px;
+  border-color: white;
+  margin-bottom: 20px;
+}
+
+#btnGenerateNumbers:hover {
+  background-color: rgb(115, 176, 255);
+}
+
+.evenNumbersContainer {
+  text-align: center;
+  flex-basis: 50%;
+  height: 400px;
+  margin-top: 25px;
+}
+
+.oddNumbersContainer {
+  text-align: center;
+  flex-basis: 50%;
+  height: 400px;
+  margin-top: 25px;
+}
+
+.evenNumbersList,
+.oddNumbersList {
+  margin-right: 35px;
+}
+
+.item-even-number,
+.item-odd-number {
+  color: white;
+  list-style: none;
+  width: 50px;
+  margin: auto;
+}
